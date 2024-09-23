@@ -1,0 +1,41 @@
+{
+  "page": {
+    "header": {
+      "logo": {
+        "text": "Logo",
+        "image": ""
+      },
+      "navItems": [
+        {
+          "text": "Home",
+          "url": "/"
+        },
+        {
+          "text": "About",
+          "url": "#about"
+        },
+        {
+          "text": "Credits",
+          "url": "#credits"
+        }
+      ]
+    },
+    "heroSlider": [
+      {
+        "title": "Welcome to the website",
+        "subtitle": "This is a subtitle",
+        "image": ""
+      },
+      {
+        "title": "Welcome to the website",
+        "subtitle": "This is a subtitle",
+        "image": ""
+      },
+      {
+        "title": "Welcome to the website",
+        "subtitle": "This is a subtitle",
+        "image": ""
+      }
+    ]
+  }
+}

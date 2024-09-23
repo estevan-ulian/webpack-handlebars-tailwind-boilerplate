@@ -1,0 +1,14 @@
+<header class="min-h-20 w-full bg-slate-200 flex items-center justify-center">
+    <nav class="flex justify-between items-center w-full mx-auto max-w-screen-xl px-4">
+        <h1 class="font-black text-2xl">
+            <a href="/">{{ app.page.header.logo.text }}</a>
+        </h1>
+        <ul class="flex gap-4">
+            {{#each app.page.header.navItems}}
+            <li>
+                <a href="{{url}}">{{text}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </nav>
+</header>

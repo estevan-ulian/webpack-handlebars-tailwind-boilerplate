@@ -1,0 +1,48 @@
+/**
+ * Tailwind CSS
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Custom Third Party Styles
+ */
+@import "~swiper/css/bundle";
+
+/**
+ * Custom Base Styles
+ */
+@layer base {
+  :root {
+    --white-color: #fff;
+    --black-color: #000;
+  }
+
+  body {
+    @apply overflow-x-hidden;
+  }
+}
+
+/**
+ * Custom Swiper Styles
+ */
+@layer components {
+  .swiper {
+    @apply h-full w-full;
+  }
+
+  .swiper-slide {
+    @apply w-full min-h-[460px] flex-grow h-full flex justify-center items-center;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    @apply bg-white text-black size-7;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    @apply text-2xl;
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    {{> components/head title="Homepage" }}
+    <body class="min-h-screen flex flex-col">
+        <!-- Navbar -->
+        {{> components/header }}
+
+        <!-- Main Content -->
+        <main class="flex flex-col flex-grow max-w-full h-full relative">
+            <div class="max-w-screen-xl w-full mx-auto px-4 flex justify-center items-center ">
+                {{> components/swiper }}
+            </div>
+        </main>
+        <!-- /Main Content -->
+
+        <!-- Footer -->
+        {{> components/footer }}
+    </body>
+</html>
